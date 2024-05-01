@@ -5,7 +5,7 @@ public class StudentAges {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] birthYears = new int[5];
-        int currentYear = java.time.Year.now().getValue(); // Get the current year
+        int currentYear = 2024;
         int[] ages = new int[5];
 
         // Input birth years from the user
